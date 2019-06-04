@@ -25,10 +25,10 @@ The following are the overall steps we will take to setup the Yubikey for 2FA us
 2. Setup Keys/Mapping
 3. Test Key/Mapping
 4. Implement 2FA
-    i. Sudo 2FA
-    ii. SU 2FA
-    iii. KDE Initial Login 2FA
-    iv. KDE Lock Screen 2FA
+   i. Sudo 2FA
+   ii. SU 2FA
+   iii. KDE Initial Login 2FA
+   iv. KDE Lock Screen 2FA
 
 Of the "Implementation" options, you may use all of them or only the ones you want. IE: you can setup Yubikey for `KDE initial login` and nothing else or you could setup `sudo`, `su` and `initial login` but not the `lock screen`.
 
