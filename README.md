@@ -127,6 +127,8 @@ To enforce 2FA using U2F with your Yubikey for `su`, do the following:
 
 Note that `cue` on the end of the added line displays a prompt in the terminal when it's time to press the button on your Yubikey. The message reads "Please touch the device".
 
+For `su` to work with the Yubikey, whichever user you attempt to su into needs to have a key assigned to it. If going by the single user directions, this means that the user needs to have a `u2f_keys` file. If using the multi-user directions, then you must have mapped that user into `u2f_mappings` with the desired key(s).
+
 When attempting to use `su` in the terminal, you will now be prompted to touch the button on the Yubikey and then be prompted for your password. If the key is not connected or you do not press the button in a reasonable time frame authentication will fail and not allow executing the su command.
 
 ### KDE Initial Login 2FA
