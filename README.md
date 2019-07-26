@@ -67,13 +67,13 @@ At this stage we will create files, key mappings, that the Yubikey authenticates
 ### Creating Key Mapping Files
 We will need to create 1 file for each user and a file for the root user.
 
-Each User (signed in as that user):
+**Each User** (signed in as that user):
 1. Be in the users home folder, if need be use `cd /home/user_name` and replace `user_name` with your actual user's name.
 2. Execute `mkdir ~/.config/Yubico` to create the directory
 3. Run `pamu2fcfg > ~/.config/Yubico/u2f_keys`, when the Yubikey blinks press the button.
   * For each additional physical Yubikey you want to have as backups run the following `pamu2fcfg -n >> ~/.config/Yubico/u2f_keys`
 
-For Root:
+**For Root**:
 1. Switch to the root user using `su`. This will require the root credentials.
 2. Change to the root directory via `cd /root`
 3. Execute `mkdir -p ~/.config/Yubico` to create the directory (-p creates the parent dir as well if it does not exist)
