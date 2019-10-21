@@ -1,3 +1,5 @@
+**UNTESTED for Fedora 31** - With Fedora 31 on the horizon, I will be testing this method to be sure it continues to work properly. Once I am comfortable its still working, I will remove this notice. Until then, try at your own risk in Fedora 31.
+
 # Fedora KDE Yubikey 2FA U2F Setup Guide
 A guide to setup a Yubikey physical security key as a second factor authentication (2FA) using U2F within Fedora KDE and SDDM. Fedora Linux using the KDE Desktop Environment (DE) can use a Yubikey as 2FA for the following login types:
 
