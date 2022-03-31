@@ -1,3 +1,5 @@
+**Tested with Fedora Kinoite 35** - Login, Unlock and sudo works. I did not test the su method since my root account is locked. Remember to apply the changes in the Ostree commit.
+ 
 **UNTESTED for Fedora 31** - Try at your own risk in Fedora 31 and later. I do not plan to maintain this repo further at this time.
 
 # Fedora KDE Yubikey 2FA U2F Setup Guide
